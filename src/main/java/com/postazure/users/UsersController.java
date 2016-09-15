@@ -13,18 +13,18 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 @SuppressWarnings("unused")
 public class UsersController {
 
-    private UserSerializer serializer;
-    private UserService service;
+    final private UserRepository repository;
+    final private UserSerializer serializer;
 
     @Autowired
-    public UsersController(UserService service, UserSerializer serializer) {
+    public UsersController(UserRepository repository, UserSerializer serializer) {
+        this.repository = repository;
         this.serializer = serializer;
-        this.service = service;
     }
 
     @RequestMapping(method = GET)
     public List<UserResponse> index(){
-        Iterable<User> users = service.findAll();
+        Iterable<User> users = repository.findAll();
         List<UserResponse> serialize = serializer.serialize(users);
         return serialize;
     }
