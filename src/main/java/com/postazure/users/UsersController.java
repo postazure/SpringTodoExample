@@ -1,5 +1,8 @@
 package com.postazure.users;
 
+import com.postazure.users.requests.UserCreateRequest;
+import com.postazure.users.requests.UserResponse;
+import com.postazure.users.usecases.CreateUserUseCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

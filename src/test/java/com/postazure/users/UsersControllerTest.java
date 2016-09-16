@@ -1,5 +1,8 @@
 package com.postazure.users;
 
+import com.postazure.users.requests.UserCreateRequest;
+import com.postazure.users.requests.UserResponse;
+import com.postazure.users.usecases.CreateUserUseCase;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

@@ -1,8 +1,8 @@
 package resources;
 
 import com.postazure.users.User;
-import com.postazure.users.UserCreateRequest;
-import com.postazure.users.UserResponse;
+import com.postazure.users.requests.UserCreateRequest;
+import com.postazure.users.requests.UserResponse;
 
 import java.time.Month;
 import java.time.ZoneId;

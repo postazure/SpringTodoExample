@@ -1,4 +1,4 @@
-package com.postazure.users;
+package com.postazure.users.requests;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;

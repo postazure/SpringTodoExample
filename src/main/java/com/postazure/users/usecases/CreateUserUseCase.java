@@ -1,5 +1,9 @@
-package com.postazure.users;
+package com.postazure.users.usecases;
 
+import com.postazure.ZonedDateTimeFactory;
+import com.postazure.users.User;
+import com.postazure.users.UserRepository;
+import com.postazure.users.requests.UserCreateRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,5 +1,6 @@
 package com.postazure.users;
 
+import com.postazure.users.requests.UserResponse;
 import org.junit.Test;
 import resources.Fixtures;
 

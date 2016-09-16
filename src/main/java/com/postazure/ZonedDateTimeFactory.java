@@ -1,4 +1,4 @@
-package com.postazure.users;
+package com.postazure;
 
 import org.springframework.stereotype.Service;
 

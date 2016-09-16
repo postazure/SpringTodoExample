@@ -1,5 +1,6 @@
 package com.postazure.users;
 
+import com.postazure.users.requests.UserResponse;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
